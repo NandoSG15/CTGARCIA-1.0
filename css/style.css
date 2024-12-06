@@ -191,7 +191,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn {
-  background-image: url(../images/pngegg.png);
+  background-image: url(../images/search-icon.png);
   background-size: 22px;
   background-repeat: no-repeat;
   background-position-y: 7px;
@@ -257,9 +257,22 @@ a:focus {
   display: flex;
 }
 
+.info_section .row .footer .img-box img {
+  width: 100%;
+  padding-left: 20px;
+  margin-bottom: 30%
+}
+
+.info_section .row .img-box img {
+  width: 80%;
+  padding-left: 30px;
+  margin-bottom: 30%
+}
+
+
 .slider_section .slider_heading {
-  -webkit-transform: rotate(270.5deg) scaleX(-1);
-          transform: rotate(270.5deg) scaleX(-1);
+  -webkit-transform: rotate(270.5deg) scaleX(1);
+          transform: rotate(270.5deg) scaleX(1);
   position: absolute;
   left: -150px;
   top: -25px;
@@ -285,6 +298,8 @@ a:focus {
   font-weight: bold;
   text-transform: uppercase;
   color: #ffffff;
+  text-shadow: 0px 2px 20px #000000;
+  padding-left: 20px
 }
 
 .slider_section .detail-box hr {
@@ -440,10 +455,11 @@ a:focus {
   color: #ffffff;
 }
 
-.about_section .about_container { 
-  padding: 45px;
+.about_section .about_container {
+  padding: 0px;
   background-image: url(../images/about-bg.webp);
   background-size: cover;
+  width: 92%;
 }
 
 .about_section .about_container .detail-box {
@@ -454,6 +470,8 @@ a:focus {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 10%;
+  background-color: #00000085;
 }
 
 .about_section .about_container .detail-box p {
@@ -951,6 +969,8 @@ a:focus {
 .footer_section a {
   color: #1c1b1b;
 }
+
+
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */

@@ -93,6 +93,7 @@
 
     .slider_section #carouselExampleIndicators .box {
         justify-content: center;
+        
     }
 
     .slider_section .slider_heading {
@@ -106,13 +107,13 @@
         background-size: auto;
     }
 
-    .class_section .class_box-container .box .img-box .detail-box button {
+    .class_section .class_box-container .box .vid-box .detail-box button {
         width: 45px;
         height: 45px;
 
     }
 
-    .class_section .class_box-container .box .img-box .detail-box button img {
+    .class_section .class_box-container .box .vid-box .detail-box button img {
         width: 15px;
         margin-left: 3px;
     }
